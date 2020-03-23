@@ -1,5 +1,5 @@
 {
-  "name": "file-converter",
+  "name": "benthic-file-converter",
   "version": "1.0.0",
   "description": "a Converter which encode any file to base64",
   "main": "index.js",
@@ -10,10 +10,7 @@
     ]
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel ./src -d dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -35,7 +32,6 @@
   },
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-dom": "^16.13.1"
   }
 }
