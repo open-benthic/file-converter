@@ -49,7 +49,10 @@ class HomePage extends PureComponent {
   }
 
   render() {
-    return <input type="file" onChange={this.handleFiles} />;
+    return React.createElement("input", {
+      type: "file",
+      onChange: this.handleFiles
+    });
   }
 }
 
