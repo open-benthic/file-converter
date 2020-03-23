@@ -1,0 +1,41 @@
+{
+  "name": "file-converter",
+  "version": "1.0.0",
+  "description": "a Converter which encode any file to base64",
+  "main": "index.js",
+  "private": false,
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-benthic/file-converter.git"
+  },
+  "keywords": [
+    "file",
+    "base64"
+  ],
+  "author": "©BenthicTeam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/open-benthic/file-converter/issues"
+  },
+  "homepage": "https://github.com/open-benthic/file-converter#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/preset-react": "^7.9.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  }
+}
